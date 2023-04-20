@@ -23,7 +23,7 @@ Here is why my project is usefull.
 - Add screenshots/drawing of plans.
 - Flow charts of app logic.
 
-![alt text](/Users/vanshazsaharan/sei/projects/Tic-Tac-Toe/flowchart.png)
+![alt text](https://github.com/vanshaz12/Tic-Tac-Toe/blob/main/flowchart.png)
 
 ## :rocket: Cool Tech
 - Visual Studios 
