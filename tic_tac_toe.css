@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  font-size: 60px;
+  font-weight: bold;
+  cursor: pointer;
+}
+td:hover {
+  background-color: lightgray;
+}
+#turn {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+#winner {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
