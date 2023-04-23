@@ -14,8 +14,12 @@ Here is why my project is usefull.
 
 
 ## :pencil: Planning & Problem Solving
-- Talk about approach to the problem. 
-- Flow charts of app logic.
+- The main goal of the project was to make it playable for two players.
+- It needed to alternate between X and O when each players played their turn.
+- The game need to end in one of the three results (Tie, P1 win, P1 lose). 
+- Display who's turn it is and the resuklt when the game ends. 
+- Then give players the option to start a new game.
+- Flow chart of app logic:
 
 ![alt text](https://github.com/vanshaz12/Tic-Tac-Toe/blob/main/flowchart.png)
 
@@ -25,13 +29,10 @@ Here is why my project is usefull.
 - HTML & CSS
 - Animations 
 
-## :scream: Bugs to fix :poop:
-- Anything a little broken
-- Anything a lot broken
-- Buttons to not click too many times (cause it's broken :unamused:)
 
 ## :sob: Lessons Learnt
-What I would do differently if I could wind back the clock...
+Focus a little bit more on the way the game is presented. 
 
 ## :white_check_mark: Future features 
-Cool things I would add if I can keep working on this 
+- Add an AI opponent.
+- Make it so possibly players can play each other over the internet.  

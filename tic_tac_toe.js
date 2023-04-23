@@ -1,15 +1,19 @@
-// Get the HTML elements
+
 var cells = document.querySelectorAll("td");
 var turn = document.querySelector("#turn");
 var winner = document.querySelector("#winner");
 
-// Initialize the game
-var player = "X";
+
+
+var player = prompt("Choose X or O:") || "X";
+while (player !== "X" && player !== "O") {
+  player = prompt("Invalid choice! Choose X or O:") || "X";
+}
 var count = 0;
 var gameEnded = false;
 var board = ["", "", "", "", "", "", "", "", ""];
 
-// Function to check if the game is over
+
 function checkGameEnded() {
   var possibleWins = [
     [0, 1, 2],
@@ -38,22 +42,21 @@ function checkGameEnded() {
   return "tie";
 }
 
-// Function to handle the player's move
 function handleMove(event) {
-  // Get the index of the clicked cell
+
   var index = event.target.id.split("-")[1];
 
-  // Check if the cell is already occupied or if the game is over
+
   if (board[index] !== "" || gameEnded) {
     return;
   }
 
-  // Update the board and the HTML
+
   board[index] = player;
   event.target.textContent = player;
   count++;
 
-  // Check if the game is over
+
   var result = checkGameEnded();
   if (result) {
     gameEnded = true;
@@ -63,7 +66,7 @@ function handleMove(event) {
       winner.textContent = 'Player ' + player + ' win';
     }
   } else {
-    // Switch to the other player's turn
+
     if (player === "X") {
       player = "O";
     } else {
@@ -73,14 +76,17 @@ function handleMove(event) {
   }
 }
 
-// Add event listeners to the cells
+
 for (var i = 0; i < cells.length; i++) {
   cells[i].addEventListener("click", handleMove);
 }
 
-// Restart the game
+
 function restartGame() {
-  player = "X";
+  player = prompt("Choose X or O:") || "X";
+  while (player !== "X" && player !== "O") {
+    player = prompt("Invalid choice! Choose X or O:") || "X";
+  }
   count = 0;
   gameEnded = false;
   board = ["", "", "", "", "", "", "", "", ""];
@@ -91,9 +97,9 @@ function restartGame() {
   }
 }
 
-// Add event listener to the "New Game" button
+
 var newGameBtn = document.querySelector("#new-game");
 newGameBtn.addEventListener("click", restartGame);
 
-// Initialize the game
+
 turn.textContent = 'Player ' + player + "'s turn";
