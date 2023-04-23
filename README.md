@@ -2,7 +2,7 @@
 
 Here is why my project is usefull.
 
-## :computer: Click here to see my live project
+## :computer: [Click here to see my live project](https://vanshaz12.github.io/Tic-Tac-Toe/)
 
 
 ## :page_facing_up: About
