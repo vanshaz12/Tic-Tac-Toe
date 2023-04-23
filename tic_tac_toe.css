@@ -33,15 +33,35 @@ td:hover {
 }
 #turn {
   font-size: 30px;
+  font-family: monospace;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
 }
 #winner {
-  font-size: 30px;
+  font-size: 60px;
+  font-family: monospace;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
+  animation: colorFade 2s infinite;
+}
+@keyframes colorFade{
+  0%{
+    color: black;
+  }
+  25%{
+    color: red;
+  }
+  50%{
+    color: green;
+  }
+  75%{
+    color: blue;
+  }
+  100%{
+    color: black;
+  }
 }
 
 #new-game{
