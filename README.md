@@ -10,7 +10,7 @@ Here is why my project is usefull.
 - This project is about:
   - Creating a functional game of Tic Tac Toe
 - In-app screenshots:
-![alt text](https://github.com/vanshaz12/Tic-Tac-Toe/blob/main/Screenshot%202023-04-23%20at%2011.55.29%20pm.png)
+![alt text](https://github.com/vanshaz12/Tic-Tac-Toe/blob/main/in_app-SS.png)
 
 
 ## :pencil: Planning & Problem Solving
