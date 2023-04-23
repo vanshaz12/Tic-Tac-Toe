@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-Here is why my project is usefull.
+My project is a simple implementation of the Tic-Tac_toe game. 
 
 ## :computer: [Click here to see my live project](https://vanshaz12.github.io/Tic-Tac-Toe/)
 
