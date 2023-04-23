@@ -7,20 +7,14 @@ Here is why my project is usefull.
 
 ## :page_facing_up: About
 
-- How to use my project
-- Down instructions(if relevant):
+- This project is about:
+  - Creating a functional game of Tic Tac Toe
+- In-app screenshots:
+![alt text](https://github.com/vanshaz12/Tic-Tac-Toe/blob/main/flowchart.png)
 
-`$ git clone my-project-app`
-
-`$ cd my-project-app`
-
-`$ node app.js`
-
-- Add in-app screenshots
 
 ## :pencil: Planning & Problem Solving
-- Talk about approach to the problem.
-- Add screenshots/drawing of plans.
+- Talk about approach to the problem. 
 - Flow charts of app logic.
 
 ![alt text](https://github.com/vanshaz12/Tic-Tac-Toe/blob/main/flowchart.png)
@@ -30,7 +24,6 @@ Here is why my project is usefull.
 - JavaScript
 - HTML & CSS
 - Animations 
-- Anything else 
 
 ## :scream: Bugs to fix :poop:
 - Anything a little broken
